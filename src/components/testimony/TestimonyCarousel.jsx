@@ -22,8 +22,8 @@ export default async function TestimoniesCarousel(){
         <div className="carousel carousel-center rounded-box flex flex-wrap gap-6 justify-center">
             {testimony.map((testi) => {
                 return (
-                    <div className="carousel-item">
-                        <TestimonyCard key={testi.sys.id} testi={testi}/>
+                    <div key={testi.sys.id} className="carousel-item">
+                        <TestimonyCard testi={testi}/>
                     </div> 
                 ) 
             })}
