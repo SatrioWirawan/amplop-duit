@@ -22,7 +22,7 @@ export default function Social(){
                 style={{width:('32px')}}
                 className="p-1 my-2 mr-16 rounded-xl"
             >
-                <Link href={item.href} target="_blank" className='hover:text-gray-400'>
+                <Link href={item.href} target="_blank" className='hover:text-gray-400' alt={item.name}>
                     {item.logo}
                 </Link>
             </li>
