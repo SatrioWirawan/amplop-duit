@@ -21,7 +21,11 @@ export default function TeamCard() {
                 {users.map((user, index) => (
                     <div key={index} className="bg-white overflow-hidden">
                         <div className="flex justify-center mt-4">
-                            <Image src={user.photo} alt={user.name} className="w-32 h-32 object-cover rounded-full border-2 border-gray-200" />
+                            <Image src={user.photo} alt={user.name} 
+                                width={160}
+                                height={160} 
+                                className="w-32 h-32 object-cover rounded-full border-2 border-gray-200" 
+                            />
                         </div>
                         <div className="text-center p-4">
                             <h2 className="text-xl font-semibold text-blue-500">{user.name}</h2>
