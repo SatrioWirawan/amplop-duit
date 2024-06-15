@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#social svg {
+  font-size: 28px;
+}
+
+footer li {
+  margin: auto;
+}
