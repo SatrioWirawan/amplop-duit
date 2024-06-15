@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         </header>
         {children}
         <Footer/>
-        <SpeedInsights />
+        {/* <SpeedInsights /> */}
       </body>
     </html>
   );
