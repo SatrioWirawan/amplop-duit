@@ -15,12 +15,12 @@ const social = [
 
 export default function Social(){
     return (
-        <ul id="social" className='flex flex-row relative'>
+        <ul id="social" className='flex flex-wrap relative'>
             {social.map((item) => (
             <li 
                 key={item.name}
                 style={{width:('32px')}}
-                className="p-1 my-2 mr-16 rounded-xl"
+                className="p-1 my-2 mr-6 md:mr-14 lg:mr-16 rounded-xl"
             >
                 <Link href={item.href} target="_blank" className='hover:text-gray-400' alt={item.name}>
                     {item.logo}
