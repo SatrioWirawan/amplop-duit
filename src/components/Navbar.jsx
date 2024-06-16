@@ -25,12 +25,6 @@ export default function Navbar() {
             </Link>
           </div>
         </div>
-        {/* <div className="navbar-center lg:hidden">
-          <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <Image src={icon} className="w-12" alt="amplop duit logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Amplop Duit</span>
-          </Link>
-        </div> */}
         <div className="navbar-end hidden lg:flex">
           <Menu className='menu menu-horizontal px-1'/>
         </div>

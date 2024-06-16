@@ -6,7 +6,7 @@ export default function TestimonyCard({testi}) {
     const {name, age, photo, occupation, testimony, rating} = testi.fields;
 
     return (
-        <div className="min-w-[320px] max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
+        <div className="w-[320px] h-[460px] max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
             <Image 
                 className="w-full h-56 object-cover object-center bg-white" 
                 src={`https:${photo.fields.file.url}`}

@@ -1,4 +1,5 @@
 import AboutCard from "@/components/about/AboutCard";
+import AchievementCard from "@/components/about/AchievementCard";
 
 export default function AboutUs(){
     return (
@@ -21,19 +22,8 @@ export default function AboutUs(){
             </section>
             <section className="h-auto p-4 md:p-8 lg:p-12 mx-1 my-4 md:m-8 lg:mx-20 lg:my-12 rounded-xl bg-white">
                 <h2 className="text-center text-4xl font-extrabold mb-8">Pencapaian</h2>
-                <ul className="flex flex-col items-center space-y-4 text-center">
-                    <li className="flex flex-col items-center">
-                        <h3 className="font-semibold text-xl mb-2">Program Pemenang Penghargaan</h3>
-                        <p className="text-gray-700 text-lg">Workshop edukasi kami telah diakui karena dampak dan efektivitasnya.</p>
-                    </li>
-                    <li className="flex flex-col items-center">
-                        <h3 className="font-semibold text-xl mb-2">Kemitraan</h3>
-                        <p className="text-gray-700 text-lg">Kolaborasi dengan sekolah, organisasi komunitas, dan institusi keuangan untuk memperluas jangkauan kami.</p>
-                    </li>
-                    <li className="flex flex-col items-center">
-                        <h3 className="font-semibold text-xl mb-2">Pertumbuhan</h3>
-                        <p className="text-gray-700 text-lg">Basis pengguna yang berkembang pesat, dengan ribuan individu yang mendapatkan manfaat dari layanan kami.</p>
-                    </li>
+                <ul className="sm:m-20">
+                    <AchievementCard/>
                 </ul>
             </section>
         </main>
