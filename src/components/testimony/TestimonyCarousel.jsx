@@ -46,7 +46,7 @@ const TestimoniesCarousel = (props) => {
     useEffect(() => {
         const fetchTestimonies = async () => {
             const fetchedTestimonies = await getTestimonies();
-            console.log('Fetched Testimonies:', fetchedTestimonies); // Check fetched data
+            console.log('Fetched Testimonies:', fetchedTestimonies);
             setTestimonies(fetchedTestimonies);
         };
 
@@ -59,7 +59,7 @@ const TestimoniesCarousel = (props) => {
             draggable={false}
             showDots={true}
             responsive={responsive}
-            ssr={true} // means to render carousel on server-side.
+            ssr={true}
             infinite={true}
             autoPlay={props.deviceType !== "mobile"}
             autoPlaySpeed={2000}
@@ -71,7 +71,6 @@ const TestimoniesCarousel = (props) => {
             deviceType={props.deviceType}
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
-            renderDotsOutside={true}
         >
             {testimonies.map((testi) => (
                     <div key={testi.sys.id}>
