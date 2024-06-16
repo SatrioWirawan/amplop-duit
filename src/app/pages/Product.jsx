@@ -9,10 +9,10 @@ export default function ProductPage() {
             </section>
             <section className="p-6 md:p-12 mx-4 md:mx-20 mt-4 rounded-xl bg-gray-100">
                 <h2 className="text-2xl md:text-4xl text-center font-extrabold mb-10">Amplop Duit Financial Planner</h2>
-                <p className="mx-4 md:mx-10">Salah satu fitur unggulan dari Amplop Duit adalah Personal Financial Planner. Fitur ini dirancang untuk memberikan pengalaman perencanaan keuangan yang personal dan disesuaikan dengan kebutuhan individu, melalui bantuan langsung dari profesional financial planner.</p>
-                <h4 className="font-extrabold mx-4 md:mx-10 mt-6">Keunggulan Fitur Personal Financial Planner:</h4>
+                <p className="mx-4 md:mx-10  sm:text-center md:text-start">Salah satu fitur unggulan dari Amplop Duit adalah Personal Financial Planner. Fitur ini dirancang untuk memberikan pengalaman perencanaan keuangan yang personal dan disesuaikan dengan kebutuhan individu, melalui bantuan langsung dari profesional financial planner.</p>
+                <h4 className="font-extrabold mx-4 md:mx-10 mt-6  sm:text-center md:text-start">Keunggulan Fitur Personal Financial Planner:</h4>
                 <div className="flex flex-wrap justify-center gap-6 mx-4 md:mx-10 lg:mx-60 mt-10">
-                    <div className="p-6 md:p-12 w-full md:w-80 rounded-xl bg-white flex flex-col items-center text-center min-h-[340px]">
+                    <div className="p-6 md:p-12 w-full md:w-80 rounded-xl bg-white flex flex-col items-center text-center md:min-h-[340px]">
                         <span className="font-extrabold">Konsultasi Pribadi:</span>
                         <br />
                         Anda akan mendapatkan kesempatan untuk berkonsultasi langsung dengan ahli keuangan yang berpengalaman.
@@ -38,7 +38,7 @@ export default function ProductPage() {
                         Sebagai pengguna layanan Personal Financial Planner, Anda akan mendapatkan akses eksklusif ke berbagai sumber daya tambahan, seperti artikel, video, dan alat bantu keuangan lainnya yang dapat mendukung perjalanan keuangan Anda.
                     </div>
                 </div>
-                <p className="mx-4 md:mx-10 mt-6">Dengan fitur Personal Financial Planner dari Amplop Duit, Anda tidak hanya mendapatkan rencana keuangan yang komprehensif, tetapi juga dukungan berkelanjutan dari ahli keuangan yang berdedikasi untuk membantu Anda mencapai tujuan keuangan Anda.</p>
+                <p className="mx-4 md:mx-10 mt-6 sm:text-center md:text-start">Dengan fitur Personal Financial Planner dari Amplop Duit, Anda tidak hanya mendapatkan rencana keuangan yang komprehensif, tetapi juga dukungan berkelanjutan dari ahli keuangan yang berdedikasi untuk membantu Anda mencapai tujuan keuangan Anda.</p>
             </section>
             <section className="p-6 md:p-12 mx-4 md:mx-20 my-4 rounded-xl">
                 <h2 className="text-2xl md:text-4xl text-center font-extrabold mb-10">Amplop Duit Premium</h2>

@@ -16,7 +16,7 @@ export default function Product() {
                         Apa Itu <span className="font-extrabold">Amplop Duit</span>?
                     </h2>
                     <p className="text-base md:text-lg lg:text-xl font-light mt-4 mb-8 mx-4 md:mx-8 lg:mx-40">
-                        <span className="font-semibold">Amplop Duit </span>merupakan aplikasi manajemen keuangan. Tidak hanya itu, Amplop Duit juga merupakan aplikasi edukasi keuangan. 
+                        <span className="font-semibold">Amplop Duit </span> merupakan aplikasi edukasi keuangan. 
                         Aplikasi ini tidak hanya berguna untuk mencatat pemasukan dan pengeluaran uang kamu, lebih dari itu kami juga memberikan layanan personal financial coach.
                     </p>
                     <Link href='/product' className='bg-black text-white hover:bg-gray-400 border rounded-lg p-2 md:p-4 mb-8 md:mb-16'>
